@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Source+Serif+Pro&family=Tenor+Sans&display=swap");
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  min-width: 200px;
+  padding: 21px 26px;
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(222, 222, 222);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+h2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  padding-top: 18px;
+  padding-bottom: 27px;
+}
+h3 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+hr {
+  border: 0px;
+  height: 1px;
+  margin: 0px;
+  background: #e6e6e6;
+}
+a {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+.categ {
+  font-weight: 400;
+  color: #999999;
+}
+.wrapper_head {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu a {
+  padding-right: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.state_top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 59px;
+  margin-bottom: 60px;
+}
+.title_top {
+  margin-left: 51px;
+}
+.title_top p {
+  padding-bottom: 28px;
+}
+.state {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.state_blok img {
+  padding-bottom: 24px;
+}
+.state_blok h3 {
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+.state_blok {
+  padding-right: 20px;
+}
+.state_blok:last-child {
+  padding-right: 0px;
+}
+.container hr {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.latest {
+  padding-bottom: 30px;
+}
+.container button {
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  background: #141414;
+}
+.logo-foo {
+  padding-top: 90px;
+  display: flex;
+}
+.logo-foo a {
+  padding-right: 15px;
+}
+footer .container hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
